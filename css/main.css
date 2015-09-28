@@ -1,3 +1,29 @@
-#logo {
+section {
+    width: 95%;
+    padding: 10px;
+}
+
+#logo_img {
+  max-width: 160px;
   width: 160px;
+  float: left;
+}
+
+#header_buttons {
+  text-align: right;
+  padding-top: 0px;
+}
+
+#login_button {
+  float: right;
+  padding: 21px;
+}
+
+#sign-up_button {
+  float: right;
+  padding: 21px;
+}
+
+#post_a_project_button {
+  
 }
