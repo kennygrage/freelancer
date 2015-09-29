@@ -14,28 +14,22 @@ freelancerWebpage.config(function($stateProvider, $urlRouterProvider) {
     }
   }); //end $stateProvider 'home'
 
-  $stateProvider.state('login', {
+  $stateProvider.state('home.login', {
     url: "/login",
     views: {
-      'header': {
-        templateUrl: "partials/header.html",
+      'header_form': {
+        templateUrl: "partials/login.html",
         controller: 'HeadersCtrl'
-      },
-      'body': {
-        templateUrl: "partials/login.html"
       }
     }
   }); //end $stateProvider 'login'
 
-  $stateProvider.state('sign-up', {
+  $stateProvider.state('home.sign-up', {
     url: "/sign-up",
     views: {
-      'header': {
-        templateUrl: "partials/header.html",
+      'header_form': {
+        templateUrl: "partials/sign-up.html",
         controller: 'HeadersCtrl'
-      },
-      'body': {
-        templateUrl: "partials/sign-up.html"
       }
     }
   }); //end $stateProvider 'sign-up'

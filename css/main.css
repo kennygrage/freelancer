@@ -10,6 +10,10 @@
   float: left;
 }
 
+.header_form {
+  margin-top: 80px;
+}
+
 #header_buttons {
   text-align: right;
   padding-top: 0px;
@@ -39,7 +43,7 @@
 }
 
 #home_div {
-  background: url("/../img/hot_air_ballon.jpg") no-repeat center center fixed;
+  background: url("/../img/hot_air_ballon.jpg") no-repeat center left fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -50,4 +54,8 @@
 #home_div img {
   height: 100%;
   width: 100%;
+}
+
+#home_div h1, h3 {
+  max-width: 50%;
 }
