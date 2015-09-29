@@ -10,7 +10,7 @@ freelancerWebpage.config(function($stateProvider, $urlRouterProvider) {
       },
       'body': {
         templateUrl: "partials/home.html"
-      }
+      },
     }
   }); //end $stateProvider 'home'
 
@@ -26,6 +26,32 @@ freelancerWebpage.config(function($stateProvider, $urlRouterProvider) {
       }
     }
   }); //end $stateProvider 'login'
+
+  $stateProvider.state('sign-up', {
+    url: "/sign-up",
+    views: {
+      'header': {
+        templateUrl: "partials/header.html",
+        controller: 'HeadersCtrl'
+      },
+      'body': {
+        templateUrl: "partials/sign-up.html"
+      }
+    }
+  }); //end $stateProvider 'sign-up'
+
+  $stateProvider.state('post-a-project', {
+    url: "/post-a-project",
+    views: {
+      'header': {
+        templateUrl: "partials/header.html",
+        controller: 'HeadersCtrl'
+      },
+      'body': {
+        templateUrl: "partials/post-a-project.html"
+      }
+    }
+  }); //end $stateProvider 'post-a-project'
 
 
 }); //end freelancerWebpage.config

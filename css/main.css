@@ -37,3 +37,17 @@
   font-weight: bold;
   background: linear-gradient(to bottom, #fc8c14 0, #f77d0e 100%);
 }
+
+#home_div {
+  background: url("/../img/hot_air_ballon.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 400px;
+}
+
+#home_div img {
+  height: 100%;
+  width: 100%;
+}
