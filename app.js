@@ -14,18 +14,18 @@ freelancerWebpage.config(function($stateProvider, $urlRouterProvider) {
     }
   }); //end $stateProvider 'home'
 
-  // $stateProvider.state('login', {
-  //   url: "",
-  //   views: {
-  //     'header': {
-  //       templateUrl: "partials/header.html",
-  //       controller: 'HeadersCtrl'
-  //     }
-  //     'body': {
-  //       templateUrl: "partials/login.html"
-  //     }
-  //   }
-  // }); //end $stateProvider 'home'
+  $stateProvider.state('login', {
+    url: "/login",
+    views: {
+      'header': {
+        templateUrl: "partials/header.html",
+        controller: 'HeadersCtrl'
+      },
+      'body': {
+        templateUrl: "partials/login.html"
+      }
+    }
+  }); //end $stateProvider 'login'
 
 
 }); //end freelancerWebpage.config
